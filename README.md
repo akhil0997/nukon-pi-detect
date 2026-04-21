@@ -1,6 +1,6 @@
 # nukon-pi-detect
 
-[![tests](https://github.com/nukonai/nukon-pi-detect/actions/workflows/tests.yml/badge.svg)](https://github.com/nukonai/nukon-pi-detect/actions/workflows/tests.yml)
+[![tests](https://github.com/akhil0997/nukon-pi-detect/actions/workflows/tests.yml/badge.svg)](https://github.com/akhil0997/nukon-pi-detect/actions/workflows/tests.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 **A tiny, fast, deterministic prompt-injection detector.**
