@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nukon-pi-detect"
+version = "0.1.0"
+description = "Tiny, fast, deterministic prompt-injection detector. CLI + Python library. No LLM calls."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "NukonAI" }]
+keywords = ["prompt-injection", "llm", "security", "ai-safety", "jailbreak", "detection"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+nukon-pi-detect = "nukon_pi_detect.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/nukonai/nukon-pi-detect"
+Issues = "https://github.com/nukonai/nukon-pi-detect/issues"
+"Runtime enforcement" = "https://nukonai.com"
+
+[tool.setuptools.packages.find]
+include = ["nukon_pi_detect*"]
+exclude = ["tests*", "examples*"]
