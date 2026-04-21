@@ -68,7 +68,7 @@ def _cmd_scan(args: argparse.Namespace) -> int:
 
 
 def _print_human(result, source_label: str) -> None:
-    bar = "─" * 60
+    bar = "-" * 60
     print(bar)
     print(f"nukon-pi-detect · {source_label}")
     print(bar)
