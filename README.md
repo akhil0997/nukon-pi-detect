@@ -1,6 +1,8 @@
 # nukon-pi-detect
 
 [![tests](https://github.com/akhil0997/nukon-pi-detect/actions/workflows/tests.yml/badge.svg)](https://github.com/akhil0997/nukon-pi-detect/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/nukon-pi-detect.svg)](https://pypi.org/project/nukon-pi-detect/)
+[![Python](https://img.shields.io/pypi/pyversions/nukon-pi-detect.svg)](https://pypi.org/project/nukon-pi-detect/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 **A tiny, fast, deterministic prompt-injection detector.**
